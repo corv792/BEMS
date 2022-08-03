@@ -1,27 +1,14 @@
 <?php
 
 defined('BASEPATH') OR exit('No direct script access allowed');
-
-
-
-
-
 $query_builder = TRUE;
-
-
-
 $selezionaLocale="";
-
 $selezionaProduzione="";
 
 if($_SERVER['SERVER_NAME'] =="localhost"){
-
 	$selezionaLocale="locale";
-
 }else{
-
 	$selezionaProduzione="locale";
-
 }
 
 
